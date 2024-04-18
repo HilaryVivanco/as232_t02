@@ -3,60 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Colegio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #2a0762;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            background-color: #e1d8d8;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            text-decoration: none;
-            color: #007bff;
-            padding: 10px;
-            margin: 0 5px;
-        }
-        nav a:hover {
-            background-color: #da3232;
-            color: white;
-        }
-        section {
-            padding: 90px;
-            text-align: center;
-        }
-        footer {
-            background-color: #343a40;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        
-    </style>
-    
 </head>
 <body>
-    <header>
-        <h1>IEP Santa Rita de Cassia</h1>
-    </header>
     <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Acerca de</a>
-        <a href="#">Contacto</a>
+        <ul>
+            <li><img class="insignia-icon" src="/imagenes/insignia.png"></li>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Noticias</a></li>
+            <li><a href="#">Admisión</a></li>
+            <li><a href="#">Agenda</a></li>
+        </ul>
     </nav>
+    <div class="front-page"> <!-- display flex --> 
+        <div class="fp-box-1">
+            <img class="img-school" src="imagenes/school-1.png">
+        </div>
+        <div>
+            <div >
+                <img class="img-school-2" src="imagenes/school-2.png">
+            </div>
+            <div class="text-phrase" >
+                <p>ALMA MATER DE LA EDUCACIÓN FEMENINA</p>
+            </div>
+        </div> <!-- display column row --> 
+    </div>
     <section>
         <h2>Bienvenido al Colegio Santa Rita de Cassia</h2>
         <p>Este es un colegio comprometido con la educación de calidad.</p>
